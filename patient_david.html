@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/patient_david.css">
+    <!-- icon -->
+    <link rel="icon shortcut" href="./img/logo.png">
+    <!-- document title -->
+    <title>Uriflow</title>
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- ============= 最上方橫列 ============= -->
+    <div class="container">
+        <ul class="lists">
+            <li class="title"><img src="./img/logo.png" alt="logo"> 尿優舒</li>
+            <li class="hospital">寧好醫院 3樓</li>
+            <li class="time">2023/12/29 20:08:46</li>
+            <li class="search"> <img src="./img/search.svg" alt="search"> <p>搜尋</p></li>
+            <li class="profile"><img src="./img/profile.png" alt="profile"><img src="./img/notify.png" alt="notify"></li>
+        </ul>
+    </div>
+    <!-- end -->
+
+
+
+    <!-- ================ 側欄位 ================ -->
+    <div class="side">
+        <ul class="sidelist">
+            <li><a href="./index.html"><img src="./img/vector.png" alt="">床位管理</a></li>
+            <li><a href="./patients.html"><img src="./img/patient.png" alt="">患者資訊</a></li>
+            <li><a href="./machine_mana.html"><img src="./img/setting.png" alt="">設備功能</a></li>
+        </ul>
+    </div>
+    <!-- end -->
+
+    <div class="middle_top">
+        <!-- ======== 個人資料 ======== -->
+        <div class="personal_profile">
+            <h1>個人資料</h1>
+            <div class="personal_value">
+                <h1>基本資料</h1>
+                <div class="value"> <div class="fw">姓名</div> <div>許大衛</div> </div>
+                <div class="value"> <div class="fw">生日</div> <div>1997/08/05</div> </div>
+                <div class="value"> <div class="fw">病歷號碼</div> <div>12783</div> </div>
+                <div class="value"> <div class="fw">身高</div> <div>165</div> </div>
+                <div class="value"> <div class="fw">體重</div> <div>56</div> </div>
+                <div class="value"> <div class="fw">血型</div> <div>O</div> </div>
+            </div>
+        </div>
+        <!-- end -->
+    
+        <!-- ======== 緊急連絡人 ======== -->
+        <div class="contact">
+            <div class="contact_value">
+                <h1>緊急連絡人</h1>
+                <div class="value"> <div class="fw">姓名</div> <div>林素卿</div> </div>
+                <div class="value"> <div class="fw">關係</div> <div>媽媽</div> </div>
+                <div class="value"> <div class="fw">電話</div> <div>0955487699</div> </div>
+
+                <h1 class="doctor">醫生囑咐</h1>
+                <div class="doctor_note"> 1. 避免食用堅果 <br> 2. 多喝水 </div>
+            </div>
+        </div>
+        <!-- end -->
+
+        <!-- ======== 即時狀況 ======== -->
+        <div class="immediate">
+            <h1>即時狀況</h1>
+            <div class="bacterial_value">
+                <h1>尿液指數</h1>
+                <div class="bacterial_list">
+                    <!-- 紅血球 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/rbc.png" alt="RBC">紅血球</div>
+                            <div>2</div>
+                        </div>
+                        <div class="orange_line"></div>
+                    </div>
+
+                    <!-- 白血球 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/wbc.png" alt="WBC">白血球</div>
+                            <div> <h5>7</h5> </div>
+                        </div>
+                        <div class="red_line"></div>
+                    </div>
+
+                    <!-- 大腸桿菌 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/E.coli.png" alt="RBC">大腸桿菌</div>
+                            <div>0</div>
+                        </div>
+                        <div class="green_line"></div>
+                    </div>
+
+                    <!-- 念珠菌 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/cand.png" alt="cand">念珠菌</div>
+                            <div> <h5>7</h5> </div>
+                        </div>
+                        <div class="red_line"></div>
+                    </div>
+
+                    <!-- 克雷伯氏菌 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/kp.png" alt="KP">克雷伯氏菌</div>
+                            <div>61</div>
+                        </div>
+                        <div class="orange_line"></div>
+                    </div>
+
+                    <!-- 葡萄球菌 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/sa.png" alt="SA">葡萄球菌</div>
+                            <div>0</div>
+                        </div>
+                        <div class="green_line"></div>
+                    </div>
+
+                    <!-- 尿蛋白 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/pro.png" alt="PRO">尿蛋白</div>
+                            <div>24</div>
+                        </div>
+                        <div class="green_line"></div>
+                    </div>
+
+                    <!-- 表皮細胞 -->
+                    <div class="cells">
+                        <div class="rbc">
+                            <div><img src="./img/bacterials/epc.png" alt="EPC">表皮細胞</div>
+                            <div>8</div>
+                        </div>
+                        <div class="green_line"></div>
+                    </div>
+        
+                </div>
+            </div>
+
+        </div>
+        <!-- end -->
+    </div>
+
+
+    <div class="chart_test">
+        <!-- ======== 表格 ======== -->
+        <div class="urine_chart">
+          <h1>尿液狀況</h1>
+            <div class="chart">
+              <canvas id="urineChart"></canvas>
+            </div> 
+        </div>
+    <!-- ======== 連接表格JS ======== -->
+        <script src="/js/chart.js"></script>
+    <!-- end -->
+
+    <!-- ======== 檢驗紀錄 ======== -->
+        <div class="test_record">
+           <h1>檢驗紀錄</h1>
+           <div class="test_value">
+             <a href="./david_test.html">
+                <div class="value2"> <div>2023年04月12日20:00</div>  <div>尿液檢測</div> 
+            </div></a>
+             <div class="value2"> <div>2023年04月12日09:20</div>  <div>血液檢測</div> </div>
+             <div class="value2"> <div>2023年04月05日13:30</div>  <div>尿液檢測</div> </div>
+             <div class="value2"> <div>2023年03月29日09:24</div>  <div>尿液檢測</div> </div>
+             <div class="value2"> <div>2023年03月22日14:20</div>  <div>血液檢測</div> </div>
+             <div class="value2"> <div>2023年03月15日14:33</div>  <div>尿液檢測</div> </div>
+             <div class="value2"> <div>2023年03月08日14:00</div>  <div>尿液檢測</div> </div>
+             <div class="value2"> <div>2023年03月01日11:30</div>  <div>血液檢測</div> </div>
+           </div>
+        </div>
+    <!-- end -->
+    </div>
+    
+
+</body>
+</html>
