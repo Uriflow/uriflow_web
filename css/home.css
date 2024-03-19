@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #F4F4F4;
+}
+
+a{
+    pointer-events: auto;
+}
+
+/* ============== 底色 ============== */
+body{background-color: #F4F4F4;}
+
+
+/* ============== 上方橫列 ============== */
+.container{
+    background: linear-gradient(90deg, #3EAD3A 30.31%, #017AAF 99.97%);
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    position: fixed;
+    z-index: 1;
+}
+
+.lists{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.container li{
+    display: flex;
+    align-items: center;
+}
+
+.list img{
+    height: 44px;
+    width:44px;
+}
+
+.hospital{
+    margin-left: 100px;
+}
+
+.time{
+    margin-left: 200px;
+}
+
+.search{
+    margin-left: 200px;
+    height: 26px;
+    width: 240px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+}
+
+.search img{
+    padding-left: 5px;
+}
+
+.search p{
+    color: #cdcdcd;
+    padding-left: 70px;
+}
+
+.profile{
+    margin-left: 30px;
+}
+/* === end === */
+
+
+
+/* ============== 側欄位 ============== */
+.side {
+    background: #232323;
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    margin-top: 48px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidelist {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidelist li {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 145px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.sidelist li img {
+    margin-right: 5px;
+}
+
+.sidelist li a {
+    display: flex; 
+    align-items: center; 
+    color: white; 
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sidelist li:hover {
+    background: var(--Linear, linear-gradient(90deg, #3EAD3A 30.31%, #017AAF 99.97%));
+}
+/* === end === */
+
+
+
+/* ============== 即時警訊 ============== */
+.urgent_inf{
+    padding-left: 196px;
+    padding-top: 64px;
+    z-index: -1;
+}
+
+.urgent_inf h1{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.outline{
+    width: 250px;
+    height: 130px;
+    border: 2px solid #ebebeb;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+.inf{
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-top: 15px;
+}
+
+.red{
+    color: #FF5858;
+}
+
+.outline img{
+    display: flex;
+    width: 66px; height: 66px;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.outline>div{
+    position: relative;
+}
+
+.outline h1{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 800;
+    color: #4c4c4c;
+    left: 35px;
+    top: 44px;
+}
+
+.urgent_form{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    padding: 20px 20px;
+}
+
+.text p{
+    display: flex;
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+/* === end === */
+
+
+
+/* ============== 病房號 ============== */
+.ward{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 196px;
+    margin-top: 16px;
+    z-index: -1;
+    margin-bottom: 32px;
+}
+
+.room{
+    width: 480px; 
+    height: 132px;
+    background: #E9E9E9;
+    border-radius: 10px;
+    border: 2px solid #EBEBEB;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+.room_num{
+    width: 480px; 
+    height: 32px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4c4c4c;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.room_patient{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.patient{
+    width: 168px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 16px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* .patient:hover{
+    background-color: #e3e3e3;
+} */
+
+/* .warn{
+    width: 4px;
+    height: 26px;
+    border-radius: 5px 0px 0px 5px;
+    background: #FF5858;
+} */
+
+.patient div{
+    font-size: 12px;
+    line-height: 26px;
+    color: #4C4C4C;
+    font-weight: 400;
+}
+/* === end === */

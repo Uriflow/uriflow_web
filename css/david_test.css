@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #F4F4F4;
+}
+
+a{
+    pointer-events: auto;
+}
+
+/* ============== 底色 ============== */
+body{background-color: #F4F4F4;}
+
+
+
+/* ============== 上方橫列 ============== */
+.container{
+    background: linear-gradient(90deg, #3EAD3A 30.31%, #017AAF 99.97%);
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    position: fixed;
+    z-index: 1;
+}
+
+.lists{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.container li{
+    display: flex;
+    align-items: center;
+}
+
+.list img{
+    height: 44px;
+    width:44px;
+}
+
+.hospital{
+    margin-left: 100px;
+}
+
+.time{
+    margin-left: 200px;
+}
+
+.search{
+    margin-left: 200px;
+    height: 26px;
+    width: 240px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+}
+
+.search img{
+    padding-left: 5px;
+}
+
+.search p{
+    color: #cdcdcd;
+    padding-left: 70px;
+}
+
+.profile{
+    margin-left: 30px;
+}
+/* === end === */
+
+
+
+
+/* ============== 側欄位 ============== */
+.side {
+    background: #232323;
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    margin-top: 48px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidelist {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidelist li {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 145px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.sidelist li img {
+    margin-right: 5px;
+}
+
+.sidelist li a {
+    display: flex; 
+    align-items: center; 
+    color: white; 
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sidelist li:hover {
+    background: var(--Linear, linear-gradient(90deg, #3EAD3A 30.31%, #017AAF 99.97%));
+}
+/* === end === */
+
+
+.test{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ============== 尿液報告 ============== */
+.uri_test{
+    display: flex;
+    flex-direction: column;
+    padding-left: 196px;
+    padding-top: 64px;
+}
+
+.uri_test h1{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.uri_value{
+    width: 304px;
+    height: 660px;
+    border-radius: 10px;
+    border: 2px solid #EBEBEB;
+    background: #FFFFFF;
+    margin-top: 16px;
+}
+
+.uri_value h1{
+    color: #4c4c4c;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-top: 9px;
+}
+
+.value{
+    width: 270px;
+    height: 32px;
+    border-radius: 5px;
+    background: #F4F4F4;
+    margin-top: 16px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.value div{
+    color: #4c4c4c;
+    line-height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.fw{
+    font-weight: 700;
+}
+/* === end === */
+
+
+
+/* ============== AI即時監控圖 ============== */
+.ai_pic{
+    padding-left: 16px;
+    padding-top: 64px;
+}
+
+.ai_pic h1{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pics{
+    width: 655px;
+    height: 660px;
+    border-radius: 10px;
+    border: 2px solid #EBEBEB;
+    background: #FFFFFF;
+    margin-top: 16px;
+    overflow: auto;
+    padding-bottom: 16px;
+}
+
+.pics img{
+    position: relative;
+    width: 192px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+

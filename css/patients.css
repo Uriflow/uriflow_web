@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #F4F4F4;
+}
+
+a{
+    pointer-events: auto;
+}
+
+/* ============== 底色 ============== */
+body{background-color: #F4F4F4;}
+
+
+/* ============== 上方橫列 ============== */
+.container{
+    background: linear-gradient(90deg, #3EAD3A 30.31%, #017AAF 99.97%);
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    position: fixed;
+    z-index: 1;
+}
+
+.lists{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.container li{
+    display: flex;
+    align-items: center;
+}
+
+.list img{
+    height: 44px;
+    width:44px;
+}
+
+.hospital{
+    margin-left: 100px;
+}
+
+.time{
+    margin-left: 200px;
+}
+
+.search{
+    margin-left: 200px;
+    height: 26px;
+    width: 240px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+}
+
+.search img{
+    padding-left: 5px;
+}
+
+.search p{
+    color: #cdcdcd;
+    padding-left: 70px;
+}
+
+.profile{
+    margin-left: 30px;
+}
+/* === end === */
+
+
+
+/* ============== 側欄位 ============== */
+.side {
+    background: #232323;
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    margin-top: 48px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidelist {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidelist li {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 145px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.sidelist li img {
+    margin-right: 5px;
+}
+
+.sidelist li a {
+    display: flex; 
+    align-items: center; 
+    color: white; 
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sidelist li:hover {
+    background: var(--Linear, linear-gradient(90deg, #3EAD3A 30.31%, #017AAF 99.97%));
+}
+/* === end === */
+
+
+/* ============== 樓層狀況 ============== */
+.floor{
+    padding-left: 196px;
+    padding-top: 64px;
+    z-index: -1;
+}
+
+.floor h1{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    margin-right: 16px;
+}
+
+.total_num{
+    width: 250px;
+    height: 130px;
+    border: 2px solid #ebebeb;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+.pplnum{
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.num{
+    color: #4c4c4c;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+.emenum{
+    color: #FA1515;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.pantients{
+    display: flex;
+    flex-direction: column;
+}
+
+/* === end === */
+
+
+/* ============== 患者名單 ============== */
+
+.pantients{
+    display: flex;
+    flex-direction: row;
+}
+
+.urgent_patients{
+    margin-top: 16px;
+    margin-left: 196px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-top: 16px;
+    background-color: #E9E9E9;
+    width: 460px;
+    height: 610px;
+    border-radius: 10px;
+}
+
+.urgent_patients h1{
+    font-size: 14px;
+    font-weight: 700;
+    color: #4c4c4c;
+}
+
+.value{
+    margin-top: 16px;
+    width: 410px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.value p{
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.normal_patients{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-top: 16px;
+    background-color: #E9E9E9;
+    width: 460px;
+    height: 610px;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+
+.normal_patients h1{
+    font-size: 14px;
+    font-weight: 700;
+    color: #4c4c4c;
+}
+/* === end === */
